@@ -15,29 +15,30 @@ There should be a minimum of:
 
 The guide will go over how to setup each component.
 
-**Raspberry Pi (Camera nodes):
+**Raspberry Pi (Camera nodes):**
 
 main.cpp
 
-**Raspberry Pi (Client nodes):
+**Raspberry Pi (Client nodes):**
 
 my_subscriber.cpp
 
-**Raspberry Pi (WiFi AP):
+**Raspberry Pi (WiFi AP):**
 
 Follow the directions
 
-**VR headset
+**VR headset**
 
 Plug and play
 
 
 #Notes:
 
-- hostnames
+- Hostnames
 
-- dependencies
+- Dependencies
+
 
 #Further improvements
 
-- auto calibration
+- Auto-calibration
