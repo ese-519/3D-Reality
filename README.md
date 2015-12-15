@@ -19,13 +19,13 @@ The guide will go over how to setup each component.
 
 There should be at least one Raspberry Pi acting as a Camera node. If multiple camera nodes exist, one of them should be controlling the stepper motor.
 
-The file main.cpp is the ROS node responsible for driving the stepper motor, taking images and sending them over a compressed ROS image topic.
+The file camera\_node/main.cpp is the ROS node responsible for driving the stepper motor, taking images and sending them over a compressed ROS image topic.
 
 **Raspberry Pi (Client nodes):**
 
 There should be at least one Raspberry Pi acting as a client node. The file my\_subscriber.cpp is the ROS node responsible for listening for images being broadcasted on the compresses images topic. If there are more than one camera, an additional listener shold be activated to listen to the other topic.
 
-The file demo_test.py is responsible for concating the images to create the 3D experience and render the images that can be navigated using Pygame.
+The file client\_node/demo\_test.py is responsible for concating the images to create the 3D experience and render the images that can be navigated using Pygame.
 
 **Raspberry Pi (WiFi AP):**
 
