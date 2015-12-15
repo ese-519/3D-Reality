@@ -1,4 +1,4 @@
-#System overview
+System overview
 
 There should be a minimum of:
 
@@ -11,32 +11,14 @@ At least one VR headset to be connected to the client Raspberry Pi node to view 
 One Raspberry Pi as a WiFi AP. This AP will connect all the nodes and will run roscore.
 
 
-#Guide:
+Guide:
 
 The guide will go over how to setup each component.
 
-##Raspberry Pi (Camera nodes):
+Raspberry Pi (Camera nodes):
 
-main.cpp
+Raspberry Pi (Client nodes):
 
-##Raspberry Pi (Client nodes):
-
-my_subscriber.cpp
-
-##Raspberry Pi (WiFi AP):
-
-Follow the directions
+Raspberry Pi (WiFi AP):
 
 VR headset
-
-Plug and play
-
-
-#Notes:
-
-hostnames
-
-dependencies
-
-#Further improvements
-
