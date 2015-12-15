@@ -40,9 +40,11 @@ The VR headset are simply plug and play.
 
 - The hostnames for all the nodes should be registered in the /etc/hosts file along with the assigned IPs. 
 
-- Make sure the dependecies are fully installed. The dependencies include ROS, Pygame, and OpenCV.
+- Make sure the dependecies are fully installed. The dependencies include ROS, Pygame, and OpenCV. These can be installed from:
 
-
-#Further improvements
-
-- Auto-calibration
+**ROS**
+http://www.ros.org/
+**Pygame**
+http://pygame.org/hifi.html
+**OpenCV**
+http://opencv.org/
